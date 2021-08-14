@@ -10,7 +10,7 @@ class AlumniHome extends Component {
     decision: '',
   }
 
-  componentWillMount() {
+  componentDidMount() {
     let name = ''
     let selectedDate = ''
     let selectedSlot = ''
